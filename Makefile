@@ -5,7 +5,7 @@ ALGO_DIR = algorithm
 COQC = coqc
 COQDEP = coqdep
 COQ_FLAG = 
-DEP_FLAG = -R $(SETS_DIR) SetsClass -R $(BASIC_DIR) Basic
+DEP_FLAG = -R $(SETS_DIR) SetsClass -R $(BASIC_DIR) Basic -R $(ALGO_DIR) Algorithm
 
 SETS_FLAG = -R $(SETS_DIR) SetsClass
 SETS_FILE_NAMES = \
@@ -17,9 +17,9 @@ BASIC_FILE_NAMES = \
    AlgebraicStructure.v InductiveType.v Logic.v SetsAndRels.v SimpleProofsAndDefs.v 
 BASIC_FILES=$(BASIC_FILE_NAMES:%.v=$(BASIC_DIR)/%.v)
 
-AlGO_FLAG = -R $(ALGO_DIR) Algorithm -R $(SETS_DIR) SetsClass
+ALGO_FLAG = -R $(ALGO_DIR) Algorithm -R $(SETS_DIR) SetsClass
 ALGO_FILE_NAMES = \
-   Perm.v
+   Perm.v Sort.v
 ALGO_FILES=$(ALGO_FILE_NAMES:%.v=$(ALGO_DIR)/%.v)
 
 FILES = $(SETS_FILES) \

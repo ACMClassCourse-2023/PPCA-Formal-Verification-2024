@@ -4,3 +4,5 @@
 *.vos
 *.aux
 .depend
+.lia.cache
+.nia.cache
