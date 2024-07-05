@@ -19,9 +19,9 @@ make depend; make
 ## 项目安排
 我们将先学习 coq 的基本语法和证明技术，再学习如何在 coq 中定义算法和证明算法的正确性，最后自选算法在 coq 中定义和证明其正确性。
 
-coq 基础知识的主要教材是 [Coq定理证明器入门](https://jhc.sjtu.edu.cn/public/courses/CS263/CoqTheoremProver/)，其习题作为平时作业。相关的 ``.v`` 文件在 ``Basic`` 文件夹中。
+coq 基础知识的主要教材是 [Coq定理证明器入门](https://jhc.sjtu.edu.cn/public/courses/CS263/CoqTheoremProver/)，其习题作为平时作业。相关的 ``.v`` 文件在 ``basic`` 文件夹中。
 
-暂定自选算法是某种**排序算法**(包括quick sort, shell sort等)或者**二叉查找树**。有其他想法请联系助教。
+项目选题可见 [project.md](project.md)。
 
 ## 参考
 - [Software Foundation: Logical Foundations](https://softwarefoundations.cis.upenn.edu/lf-current/index.html)
