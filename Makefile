@@ -19,7 +19,7 @@ BASIC_FILES=$(BASIC_FILE_NAMES:%.v=$(BASIC_DIR)/%.v)
 
 ALGO_FLAG = -R $(ALGO_DIR) Algorithm -R $(SETS_DIR) SetsClass
 ALGO_FILE_NAMES = \
-   Perm.v Sort.v
+   Perm.v Sort.v Merge.v
 ALGO_FILES=$(ALGO_FILE_NAMES:%.v=$(ALGO_DIR)/%.v)
 
 FILES = $(SETS_FILES) \
